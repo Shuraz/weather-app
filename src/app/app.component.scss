@@ -1,0 +1,35 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 20px 20px;
+  margin: 10px;
+}
+mat-panel-title{
+  padding-top: 20px;
+  color: coral;
+
+}
+mat-expansion-panel{
+  background-color: #bbbbec;
+  height:auto;
+}
+mat-expansion-panel-header{
+  height: 100px;
+  padding-top: 30px;
+}
+mat-panel-description{
+  display: inline-block;
+  color: white;
+}
+
+/*
+.mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}*/
